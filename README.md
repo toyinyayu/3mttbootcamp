@@ -15,23 +15,23 @@ Please choose the calculation sign you want to perform:
 
 #The number_1 and number_2 is a variable that store the first and second numbers the user enters
 
-    number_1 = int(input('Please enter the first number: '))
-    number_2 = int(input('Please enter the second number: '))
+    numberOne = int(input('Please enter the first number: '))
+    numberTwo = int(input('Please enter the second number: '))
 
 #The if, elif and else check for the operation the user choose, the else finally is trigger if none of the operation is choosen
 
 
     if operation == '+':
-        print(number_1 + number_2)
+        print(numberOne + numberTwo)
 
     elif operation == '-':
-        print(number_1 - number_2)
+        print(numberOne - numberTwo)
 
     elif operation == '*':
-        print(number_1 * number_2)
+        print(numberOne * numberTwo)
 
     elif operation == '/':
-        print(number_1 / number_2)
+        print(numberOne / numberTwo)
 
     else:
         print('Please ensure you enter the operation sign.')
